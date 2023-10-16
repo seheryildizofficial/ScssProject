@@ -1,0 +1,16 @@
+@mixin button{
+    border: none;
+                color: white;
+                padding: 5px 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                background-color: #FA8BFF;
+                background-image: linear-gradient(45deg,
+                #FA8BFF 0%, 
+                #2BD2FF 52%, 
+                #2BFF88 90%);
+                &:hover{
+                    transform: scale(0.9);
+                    transition: 500ms;
+                }
+}
